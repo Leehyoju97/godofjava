@@ -1,4 +1,4 @@
-# Serializaebl이란?
+# Serializaeble이란?
 
 - 해당 객체를 저장하거나 다른 서버로 전송할 수 있게 해주는 인터페이스다.
 - Serializable 인터페이스를 구현한 후 serialVersionUID라는 값을 지정해 주는 것을 권장한다.
