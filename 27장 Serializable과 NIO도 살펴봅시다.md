@@ -1,11 +1,11 @@
-# Serializaeble이란?
+# Serializable이란?
 
 - 해당 객체를 저장하거나 다른 서버로 전송할 수 있게 해주는 인터페이스다.
 - Serializable 인터페이스를 구현한 후 serialVersionUID라는 값을 지정해 주는 것을 권장한다.
 
 ## serialVersionUID란?
 
-- 개발자가 serialVersionUTD를 별도로 지정하지 않으면 자바 소스가 컴파일될 떄 자동으로 생성된다.
+- 개발자가 serialVersionUID를 별도로 지정하지 않으면 자바 소스가 컴파일될 떄 자동으로 생성된다.
 - serialVersionUID는 해당 객체의 버전을 명시하는데 사용된다.
 - 각 서버가 쉽게 해당 객체가 같은지 다른지를 확인할 수 있도록 해준다.
 - 클래스 이름이 같더라도 serialVersionUID가 다르면 다른 클래스라고 인식한다.
